@@ -32,9 +32,9 @@ def exlog(msg):
 		f.write(f"{msg}{datetime.now()} \n")
 
 if __name__== '__main__':
-	drink_water_after= 5
-	eye_ex_after=10
-	ex_after= 20
+	drink_water_after= 45*60
+	eye_ex_after=50*60
+	ex_after= 55*60
 	done_water= time()
 	done_ey_ex= time()
 	done_ex= time()
