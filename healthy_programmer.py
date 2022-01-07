@@ -11,12 +11,12 @@ from time import time
 def music_player(file,stopper):
 	mixer.init()
 	mixer.music.load(file)
-	mixer.music.play
+	mixer.music.play()
 	
 	while True:
 		user_input = input("Enter the particular input as says to stop the music ")
 		if user_input == stopper:
-			mixer.music.stop
+			mixer.music.stop()
 			break
 
 def waterlog(msg):
