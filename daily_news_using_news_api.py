@@ -10,7 +10,7 @@ def speak(str):
 
 if __name__=='__main__':
     speak("Lets start with Todays top 7 headlines");
-    newss= requests.get("https://newsapi.org/v2/top-headlines?sources=google-news-in&apiKey=3a3c767ac6774f7b87dd24bc6321d643")
+    newss= requests.get("https://newsapi.org/v2/top-headlines?sources=google-news-in&apiKey=")#please user your api key
     #print(newss.text)
     news_parsed= json.loads(newss.text)
     #print(news_parsed["articles"])
